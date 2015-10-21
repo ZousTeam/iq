@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login" />
+    
+    <Button 
+        android:id="@+id/getinfobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getinfo"/>
+    
+    <TextView 
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00A0E9"/>
+
+</LinearLayout>
